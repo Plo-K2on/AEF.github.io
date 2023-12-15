@@ -157,20 +157,3 @@ main .evenement_img .PX_text img{
     bottom: 750px;
     margin: 0px -41px 0 0px;
 }
-
-
-/* Footer */
-
-footer img {
-    width: 91%;
-    height: 280px;
-    position: relative;
-    left: 66px;
-    bottom: -7px;
-}
-
-
-/* Responsive */
-@media screen and (max-width: 870px) {
-    
-}

@@ -84,19 +84,3 @@ main .formulaire_image p{
     position: relative;
     bottom: 25px;
 }
-
-footer img {
-    width: 91%;
-    height: 280px;
-    position: relative;
-    left: 66px;
-    bottom: 15px;
-}
-
-
-
-
-/* Responsive */
-@media screen and (max-width: 870px) {
-    
-}

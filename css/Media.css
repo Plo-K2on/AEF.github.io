@@ -99,18 +99,3 @@ main .image .img_portrait {
     position: relative;
     left: 260px
 }
-
-footer img {
-    width: 91%;
-    height: 280px;
-    position: relative;
-    left: 66px;
-    bottom: -130px;
-}
-
-
-
-/* Responsive */
-@media screen and (max-width: 870px) {
-    
-}

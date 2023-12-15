@@ -115,11 +115,6 @@ main .infos_act {
     align-items: center;
 }
 
-/* main .list_activités .infos_act button {
-    border-bottom: 5px #ff0000 solid;
-    margin-bottom: 10px;
-} */
-
 main .text_sans_photo .tarif_description{
     text-align: center;
     font-size: x-large;
@@ -138,10 +133,4 @@ main .programmation {
 
 main .programmation img{
     width: 50%;
-}
-
-
-/* Responsive */
-@media screen and (max-width: 870px) {
-    
 }
