@@ -1,0 +1,176 @@
+/* Header */
+
+header .logo_texte_banniere {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px -72px 0px;
+    position: relative;
+}
+
+header .texte_banniere {
+    display: flex;
+    margin: 0 0 0 20px;
+    position: relative;
+    left: 50px;
+}
+
+header .texte_banniere a{
+    position: relative;
+    right: 220px;
+    margin: 0 18px 0px 0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    top: 23px;
+}
+
+header .texte_banniere a:hover{
+    border: 3px #000000 solid;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    top:-10px;
+    margin: 22px 18px 0px 0;
+}
+
+header .texte_banniere p{
+    position: relative;
+    right: 228px;
+    bottom: 0px;
+    font-size: larger;
+}
+
+header .logo_texte_banniere .logo_AEF img{
+    width: 100%;
+    height: 90px;
+}
+
+header .information{
+    width: 20%;
+    position: relative;
+}
+
+header .information img{
+    height: 30px;
+}
+
+header .img_banniere {
+    display: flex;
+    justify-content: center;
+}
+
+header .img_banniere img {
+    width: 100%;
+    height: 339px;
+    margin: -30px 0 0 0px;
+}
+
+footer img {
+    width: 91%;
+    height: 280px;
+    position: relative;
+    left: 66px;
+    bottom: 410px;
+}
+
+/* Main */
+
+main .noel {
+    position: relative;
+    right: 10px;
+    top: 20px;
+}
+
+main .noel .ligne_1_noel{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 25px 30px 40px;
+    padding: 0 0 0 31px;
+}
+
+main .noel .ligne_1_noel #affiche_noel{
+    height: 290px;
+    padding: 5px 409px 5px 20px;
+}
+
+main .noel .ligne_1_noel .image_px{
+    display: flex;
+}
+
+main .noel .ligne_1_noel .image_px #image_px{
+    height: 290px;
+    padding: 5px 421px 5px 20px;
+    margin: 0 -50px 0 25px;
+}
+
+main .noel .ligne_1_noel .image_px #text_px{
+    float: right;
+    border: none;
+    width: 58%;
+    height: 275px;
+    padding: 0;
+    position: relative;
+    right: 372px;
+    bottom: -14px
+}
+
+main .noel .ligne_2_noel{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 25px 30px 40px
+}
+
+main .noel img {
+    height: 200px;
+    border: 5px #808080 inset;
+    padding: 50px 475px 50px 20px
+}
+
+main .noel .image_noel_1{
+    margin: 0 -345px 0 0;
+}
+
+main .noel .image_noel_2{
+    margin: 0 -345px 0 0;
+}
+
+main .evenement_img_text{
+    position: relative;
+    margin: 0px 48px 0 60px;
+    top: 10px;
+}
+
+main .evenement_img .PX_img img{
+    width: 40%;
+    position: relative;
+    top: 33px;
+}
+
+main .evenement_img .PX_text img{
+    width: 63%;
+    float: right;
+    position: relative;
+    bottom: 750px;
+    margin: 0px -41px 0 0px;
+}
+
+
+/* Footer */
+
+footer img {
+    width: 91%;
+    height: 280px;
+    position: relative;
+    left: 66px;
+    bottom: -7px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 870px) {
+    
+}
