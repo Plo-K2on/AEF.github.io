@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/Media.css" />
     <title>AEF - Media</title>
+
 </head>
 
 <body>
@@ -47,33 +48,33 @@
             <table>
             <tr>
                 <div>
-                     <td><img id="image" src="./img/image_1.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_1.jpg" alt="image" onclick="zoomIn1()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_5.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_5.jpg" alt="image" onclick="zoomIn5()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_7.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_7.jpg" alt="image" onclick="zoomIn7()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_3.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_3.jpg" alt="image" onclick="zoomIn3()"/></td>
                 </div>
             </tr>
             <!-- </div>
             <div class="img_paysage"> -->
                 <div>
-                    <td><img id="image" src="./img/image_2.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_2.jpg" alt="image" onclick="zoomIn2()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_6.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_6.jpg" alt="image" onclick="zoomIn6()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_8.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_8.jpg" alt="image" onclick="zoomIn8()"/></td>
                 </div>
                 <div>
-                    <td><img id="image" src="./img/image_4.jpg" alt="image" onclick="zoomIn()"/></td>
+                    <td><img id="image_img" src="./img/image_4.jpg" alt="image" onclick="zoomIn4()"/></td>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
         </table>
 
@@ -81,6 +82,57 @@
 
         </div>
     </main>
+
+    <script>
+
+        function zoomIn1() {
+            var image = document.getElementById('image_img');
+            var source = "./img/image_1.jpg";
+            window.open(source);
+        }
+        function zoomIn2() {
+            var image = document.getElementById('image');
+            var source = "./img/image_2.jpg";
+            window.open(source);
+        }
+
+        function zoomIn3() {
+            var image = document.getElementById('image');
+            var source = "./img/image_3.jpg";
+            window.open(source);
+        }
+
+        function zoomIn4() {
+            var image = document.getElementById('image');
+            var source = "./img/image_4.jpg";
+            window.open(source);
+        }
+
+        function zoomIn5() {
+            var image = document.getElementById('image');
+            var source = "./img/image_5.jpg";
+            window.open(source);
+        }
+
+        function zoomIn6() {
+            var image = document.getElementById('image');
+            var source = "./img/image_6.jpg";
+            window.open(source);
+        }
+
+        function zoomIn7() {
+            var image = document.getElementById('image');
+            var source = "./img/image_7.jpg";
+            window.open(source);
+        }
+
+        function zoomIn8() {
+            var image = document.getElementById('image');
+            var source = "./img/image_8.jpg";
+            window.open(source);
+        }
+        
+    </script>
 
 </body>
 

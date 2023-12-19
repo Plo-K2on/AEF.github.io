@@ -83,21 +83,17 @@ main .image{
     margin: 0 13px 0 64px;
 }
 
-#image{
+#image_img{
     width: 60%;
-    border: 5px #808080 inset;
     padding: 30px;
 
     max-width: 100%;
-    cursor: zoom-in;
-    transition: transform 0.5s;
-}
+    transition: transform 0.5s; 
+} 
 
-#image:active{
+#image_img:active{
     transform: scale(2);
-    cursor: zoom-out;
     border: none;
-    /* position: absolute; */
 }
 
 main .image .img_portrait {
